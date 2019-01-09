@@ -7,7 +7,9 @@ Organisation:
 
 - We will follow the book [Implementing Programming Languages](http://www.grammaticalframework.org/ipl-book/) by [Aarne Ranta](http://www.cse.chalmers.se/~aarne/). Currently, the plan is to work through Chapters 2 - 6, which are available [online](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf).  There is also a [list or errata](https://github.com/andreasabel/plt-errata). 
 
-- Create a github repository in which you will maintain the solutions to the assignments.
+- Assignments are solved in groups of up to three students. I do not recommend working on your own as the assignments involve substantial work. 
+
+- Create a private github repository in which you will maintain the solutions to the assignments. Do not share your code and the work on your assignments with students not in your group.
 
 - Join the [Google group for the course](https://groups.google.com/forum/#!forum/chapman-compiler-construction-2019)
 
