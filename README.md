@@ -1,7 +1,7 @@
 # compiler-construction
-Notes and Materials for a course on Compiler Construction
+Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman University
 
-(under construction, read at your own risk)
+(under construction, read at your own risk :-) )
 
 Organisation:
 
