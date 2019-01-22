@@ -35,7 +35,7 @@ Assessment:
   - Assignment 5: [Code Generator for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment4/assignment4.html).  Deadline  tba  
 
 - 50% of the course on theoretical aspects such as automata, grammars, type inference, etc: 
-  - 4 quizzes/tests worth 4% each. Each test will roughly cover a quareter of the material relevant for the final exam.
+  - 4 quizzes/tests worth 4% each. Each test will roughly cover a quarter of the material relevant for the final exam.
   - Final exam worth 34%. The final exam will cover the same material as the tests.
 
 Some more references:
