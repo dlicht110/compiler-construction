@@ -11,11 +11,11 @@ Organisation:
 
 - Assignments are solved in groups of up to three students. I do not recommend working on your own as the assignments involve substantial work. 
 
-- Create a private github repository in which you will maintain the solutions to the assignments. Do not share your code and the work on your assignments with students not in your group.
+- Create a private github repository in which you will maintain the solutions to the assignments. Do not share your code and the work on your assignments with students not in your group. As all groups do the same assignments, sharing code between groups consitutes plagriarim.
 
-- Plagiarism: While discussing the assignments in the Google group and sharing ideas is perfectly fine, passing on code to students of another group is plagiarism. If you use code from other sources you need to highlight these sources when you submit your work and also in comments in the code itself. 
+- **Plagiarism:** While discussing the assignments in the Google group and sharing ideas is perfectly fine, passing on code to students of another group is plagiarism. If you use code from other sources you need to highlight these sources when you submit your work and also in comments in the code itself. 
 
-- There are many excellent reference to automata theory, the best known of which is "Introduction to Automata Theory, Languages, and Computation" by Hopcroft and Ullman (older second hand editions are fine, I studied from that book in 1990 and even that edition contains much more than we need). I list here some online tutorials and lecture notes which may be helpful.
+- There are many excellent reference to automata and language theory, the best known of which is "Introduction to Automata Theory, Languages, and Computation" by Hopcroft and Ullman (older second hand editions are fine, I studied from that book in 1990 and even that edition contains much more than we need). I list here some online tutorials and lecture notes which may be helpful.
   - [Introduction to Automata Theory, Languages, and Computation by Hopcroft, Motwani, Ullman]( https://mcdtu.files.wordpress.com/2017/03/introduction-to-automata-theory.pdf) Parts of Chapter 2 - 5  
   - [Introduction To The Theory Of Computation by Michael Sipser]( http://fuuu.be/polytech/INFOF408/Introduction-To-The-Theory-Of-Computation-Michael-Sipser.pdf)  Chapter 1 and part of Chapter 2  
   - [Lecture Notes on Regular Languages and Finite Automata by Marcelo Fiore](https://www.cl.cam.ac.uk/teaching/1011/RLFA/LectureNotes.pdf)  
@@ -27,14 +27,16 @@ Organisation:
   
 Assessment:
 
-- 60% of the course: 5 Assignments and one presentation.
+- 50% of the course: 5 Assignments, each worth 10%. To pass the assignment programs need to run and test. 
   - Assignment 1: Warm up. Deadline ...  
   - Assignment 2: ... Deadline ...  
   - Assignment 3: ... Deadline ...  
   - Assignment 4: ... Deadline ...  
   - Assignment 5: ... Deadline ...  
 
-- 40% of the course: final exam on theoretical aspects such as automata, grammars, type inference, etc
+- 50% of the course on theoretical aspects such as automata, grammars, type inference, etc: 
+  - 4 quizzes/tests worth 4% each. Each test will roughly cover a quareter of the material relevant for the final exam.
+  - Final exam worth 34%. The final exam will cover the same material as the tests.
 
 Some more references:
 
