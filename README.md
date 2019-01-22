@@ -44,6 +44,6 @@ Some more references:
 of Computer Programs" by Abelson and Sussman, which is available as [pdf](https://web.mit.edu/alexmv/6.037/sicp.pdf) or on the [web](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-1.html#titlepage).
 
 - Some classic texts on Compiler Construction available online are by
-  - [Niklaus Wirth](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf)
-  - [Waite and Goos](https://www.cs.cmu.edu/~aplatzer/course/Compilers/waitegoos.pdf)
+  - [Niklaus Wirth](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf), 1996/2005
+  - [Waite and Goos](https://www.cs.cmu.edu/~aplatzer/course/Compilers/waitegoos.pdf), 1984/1996
   - ...
