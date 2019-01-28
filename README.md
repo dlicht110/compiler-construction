@@ -51,7 +51,7 @@ of Computer Programs" by Abelson and Sussman, which is available as [pdf](https:
   - ...
 
 One of the main skills you will learn in this course is parsing. It is not only one of the essential (and difficult) parts in compiler construction but also appears in many other contexts such as (this is just a list of links I found interesting at the time of writing, I am not trying to be complete or rank by importance or authority):
-- [natural language processing](https://nlp.stanford.edu/software/lex-parser.shtml)
+- [natural language processing](https://nlp.stanford.edu/software/lex-parser.shtml), [Charniak](https://www.aaai.org/ojs/index.php/aimagazine/article/viewFile/1320/1221)
 - [translating between languages](https://www.grammaticalframework.org/)
 - [cognitive science and psycholinguistics](https://dl.acm.org/ft_gateway.cfm?id=1697283&ftid=740323&dwn=1&CFID=46563369&CFTOKEN=6c231f65c04a5d4b-BEC94DA1-0566-3330-88B6AA7DA1DCC514), see also [Jakub Szymanik](http://www.jakubszymanik.com/)
 - [geology](https://pubs.usgs.gov/ds/2006/146/htmldocs/process.htm)
