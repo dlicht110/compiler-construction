@@ -27,16 +27,16 @@ Organisation:
   
 Assessment:
 
-- 50% of the course: 5 Assignments, each worth 10%. To pass the assignment programs need to run and test. 
-  - Assignment 1: Warm up. Deadline ...  
+- 54% of the course: 5 Assignments, first is worth 10%, the others 11%. (This may be subject to change in case we go through the material slower than expected and we will not be able to do all 5 assignments.) To pass an assignment programs need to run and test. I also may ask you to explain your solutions to me during office hours. Each assignment is graded either as pass (full marks) or fail (no marks). The criterion for passing is whether the program performs correctly according to the given specification.
+  - Assignment 1: Warm up. Tba on Wed. Deadline Wed Feb 6 (11:59 pm PST). 
   - Assignment 2: [Grammar and Parser for C++](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html). Deadline tba
   - Assignment 3: [Type Checker for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment2/assignment2.html).  Deadline  tba  
   - Assignment 4: [Interpreter for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment3/assignment3.html).  Deadline  tba  
   - Assignment 5: [Code Generator for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment4/assignment4.html).  Deadline  tba  
 
-- 50% of the course on theoretical aspects such as automata, grammars, type inference, etc: 
+- 46% of the course on theoretical aspects such as automata, grammars, type inference, etc: 
   - 4 quizzes/tests worth 4% each. Each test will roughly cover a quarter of the material relevant for the final exam.
-  - Final exam worth 34%. The final exam will cover the same material as the tests.
+  - Final exam worth 30%. The final exam will cover the same material as the tests.
 
 Further reading:
 
@@ -48,3 +48,11 @@ of Computer Programs" by Abelson and Sussman, which is available as [pdf](https:
   - [Niklaus Wirth](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf), 1996/2005
   - [Waite and Goos](https://www.cs.cmu.edu/~aplatzer/course/Compilers/waitegoos.pdf), 1984/1996
   - ...
+
+One of the main skills you will learn in this course is parsing. It is not only one of the essential (and difficult) parts in compiler construction but also appears in many other contexts such as
+- [natural language processing](https://nlp.stanford.edu/software/lex-parser.shtml)
+- [translating between languages](https://www.grammaticalframework.org/)
+- [geology](https://pubs.usgs.gov/ds/2006/146/htmldocs/process.htm)
+- [knitting](http://alliejon.es/blog/2014/03/24/adding-syntax-highlighting-to-knitting-patterns/)
+- [music](https://link.springer.com/chapter/10.1007%2F3-540-45722-4_3)
+- ...
