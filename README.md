@@ -57,3 +57,5 @@ One of the main skills you will learn in this course is parsing. It is not only 
 - [knitting](http://alliejon.es/blog/2014/03/24/adding-syntax-highlighting-to-knitting-patterns/)
 - [music](https://link.springer.com/chapter/10.1007%2F3-540-45722-4_3)
 - ...
+
+In particular the latter links point to parsing and automata theory being a general tool for pattern matching and pattern recognition.
