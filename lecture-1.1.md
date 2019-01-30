@@ -1,7 +1,6 @@
-# compiler-construction
-Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman University
+# Lecture 1.1
 
-Organisation:
+## Organisation:
 
 - We will follow the book [Implementing Programming Languages](http://www.grammaticalframework.org/ipl-book/) by [Aarne Ranta](http://www.cse.chalmers.se/~aarne/). Currently, the plan is to work through Chapters 2 - 6, which are available [online](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf).  There is also a [list or errata](https://github.com/andreasabel/plt-errata). 
 
@@ -23,7 +22,7 @@ Organisation:
   - [Brian Harvey's notes](https://people.eecs.berkeley.edu/~bh/pdf/v3ch01.pdf)
  
   
-Assessment:
+## Assessment:
 
 - 54% of the course: 5 Assignments, first is worth 10%, the others 11%. (As this is the first time I run this course, there is a small chance that the plan will have to be changed, eg in case we go through the material slower than expected ... it is certainly a good idea to get a good start on the first assignments.) To pass an assignment programs need to run and test. I also may ask you to explain your solutions to me during office hours. Each assignment is graded either as pass (full marks) or fail (no marks). The criterion for passing is whether the program performs correctly according to the given specification.
   - Assignment 0 (not assessed): [Let me know](mailto:akurz@chapman.edu?subject=Compiler%20Construction,%20Groups) the group you are in. Deadline Wed Jan 30 (11:59 pm PST).
@@ -37,7 +36,7 @@ Assessment:
   - 4 quizzes/tests worth 4% each. Each test will roughly cover a quarter of the material relevant for the final exam.
   - Final exam worth 30%. The final exam will cover the same material as the tests.
 
-Further reading:
+## Further reading:
 
 - For general reading and background consider "Structure and Interpretation 
 of Computer Programs" by Abelson and Sussman, which is available as [pdf](https://web.mit.edu/alexmv/6.037/sicp.pdf) or on the [web](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-1.html#titlepage).
@@ -47,6 +46,8 @@ of Computer Programs" by Abelson and Sussman, which is available as [pdf](https:
   - [Niklaus Wirth](http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf), 1996/2005
   - [Waite and Goos](https://www.cs.cmu.edu/~aplatzer/course/Compilers/waitegoos.pdf), 1984/1996
   - ...
+
+## Short introduction to the importance of parsing
 
 One of the main skills you will learn in this course is parsing. It is not only one of the essential (and difficult) parts in compiler construction but also appears in many other contexts such as (this is just a list of links I found interesting at the time of writing, I am not trying to be complete or rank by importance or authority):
 - [natural language processing](https://nlp.stanford.edu/software/lex-parser.shtml), [Charniak](https://www.aaai.org/ojs/index.php/aimagazine/article/viewFile/1320/1221)
