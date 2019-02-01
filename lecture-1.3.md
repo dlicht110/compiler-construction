@@ -1,6 +1,6 @@
 # Why don't Java and Python have goto statements?
 
-This discussion is motivated by the question of how to implement a specification such as the one from the [previous lecture]().
+This discussion is motivated by the question of how to implement a specification such as the one from the [previous lecture](https://github.com/alexhkurz/compiler-construction/blob/master/abc.pdf).
 
 In a language with labels and gotos, we can give a nice and direct translation of the picture. For example, in C++, the code translating the state labelled `q0` can be written as
 
