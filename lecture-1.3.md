@@ -4,12 +4,12 @@ This discussion is motivated by the question of how to implement a specification
 
 In a language with labels and gotos, we can give a nice and direct translation of the picture. For example, in C++, the code translating the state labelled `q2` can be written as
 
-    q2:
+    q1:
     READ_CHAR;
     switch (input) {
-        case 'a': goto q2;
-        case 'b': goto q3;
-        default : goto q1;
+        case 'a': goto q1;
+        case 'b': goto q2;
+        default : goto q0;
     }
 
 where `READ_CHAR' is a macro that assigns the current character to the variable `input`.
