@@ -12,7 +12,7 @@ In a language with labels and gotos, we can give a nice and direct translation o
         default : goto q0;
     }
 
-where `READ_CHAR' is a macro that assigns the current character to the variable `input`.
+where `READ_CHAR' is a macro that assigns the current character to the variable `input`. 
 
 Languages such as Java and Python do not have `goto`. We will discuss later why.
 
