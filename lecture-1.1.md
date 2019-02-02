@@ -26,7 +26,7 @@
 
 - 54% of the course: 5 Assignments, first is worth 10%, the others 11%. (As this is the first time I run this course, there is a small chance that the plan will have to be changed, eg in case we go through the material slower than expected ... it is certainly a good idea to get a good start on the first assignments.) To pass an assignment programs need to run and test. I also may ask you to explain your solutions to me during office hours. Each assignment is graded either as pass (full marks) or fail (no marks). The criterion for passing is whether the program performs correctly according to the given specification.
   - Assignment 0 (not assessed): [Let me know](mailto:akurz@chapman.edu?subject=Compiler%20Construction,%20Groups) the group you are in. Deadline Wed Jan 30 (11:59 pm PST).
-  - Assignment 1: Warm up. Tba on Wed. Deadline Wed Feb 6 (11:59 pm PST). 
+  - Assignment 1: [Warm up](https://hackmd.io/s/HyaDeaXzN#). Deadline Wed Feb 6 (11:59 pm PST). 
   - Assignment 2: [Grammar and Parser for C++](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html). Deadline tba
   - Assignment 3: [Type Checker for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment2/assignment2.html).  Deadline  tba  
   - Assignment 4: [Interpreter for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment3/assignment3.html).  Deadline  tba  
