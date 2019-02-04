@@ -6,9 +6,9 @@ Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman
 
 - [Lecture 1.3](https://hackmd.io/s/S110eS-VE#): How to implement a state machine and why do Java and Python not have gotos?
 
-coming up soon:
+- [Lecture 2.1](http://www.grammaticalframework.org/ipl-book/slides/1-slides-ipl-book.pdf): A brief introduction to compiler construction from [the slides of the book](http://www.grammaticalframework.org/ipl-book/).
 
-- [Lecture 2.1](): A brief introduction to compiler construction.
+coming up soon:
 
 - [Lecture 2.2](): Determinstic Finite Automata. 
 
