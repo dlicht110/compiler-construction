@@ -6,7 +6,7 @@
 
 - Join the [Google group for the course](https://groups.google.com/forum/#!forum/chapman-compiler-construction-2019) by following the link and selecting "Apply for membership". Use the group for questions and discussions relating to the course. 
 
-- Assignments are solved in groups of up to three students. I do not recommend working on your own as the assignments involve substantial work. 
+- Assignments are solved in groups of up to three students. I do not recommend working on your own as the assignments (with the possible exception of Assignment 1) involve substantial work. 
 
 - Create a private github repository in which you will maintain the solutions to the assignments. Do not share your code and the work on your assignments with students not in your group. As all groups do the same assignments, sharing code between groups consitutes plagriarim.
 
