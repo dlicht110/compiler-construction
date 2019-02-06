@@ -58,4 +58,4 @@ One of the main skills you will learn in this course is parsing. It is not only 
 - [music](https://link.springer.com/chapter/10.1007%2F3-540-45722-4_3)
 - ...
 
-In particular the latter links point to parsing and automata theory being a general tool for pattern matching and pattern recognition.
+As a homework to do during the whole of the semester look for applications of regular expressions, automata, parsing in areas outside of computer science. Computer science is inherently interdisciplinary as we always develop programs with some application in mind. So thinking outside of the box is important. The point of the examples above is to illustrate parsing and automata theory as a general tool for pattern matching and pattern recognition.
