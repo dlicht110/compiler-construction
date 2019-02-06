@@ -11,7 +11,7 @@ Plan for the lecture is Chapter 2.2.
 
 Read the box on page 52 carefully.
 
-Do the following exercises: Exercise 2.2.4 ( possibly 2.2.5 and 2.2.6) and Exercise 2.2.10 (possibly 2.2.11). You don't need to do a formal prove by induction but think about an argument showing that your language is the correct one. These exercises are relevant preparation for tests and final.  
+Do the following exercises: Exercise 2.2.4 ( possibly 2.2.5 and 2.2.6) and Exercise 2.2.10 (possibly 2.2.11). You don't need to do a formal prove by induction but think about an argument showing that your language is the correct one. **These exercises are relevant preparation for tests and final.** 
 
 
 
