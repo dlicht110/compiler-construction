@@ -10,7 +10,7 @@ Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman
 
 coming up soon:
 
-- [Lecture 2.2](): Determinstic Finite Automata. 
+- [Lecture 2.2](lecture-2.2.md): Determinstic Finite Automata. 
 
 - [Lecture 2.3](): Nondeterminstic Finite Automata. 
 
