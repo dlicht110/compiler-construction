@@ -8,9 +8,10 @@ Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman
 
 - [Lecture 2.1](http://www.grammaticalframework.org/ipl-book/slides/1-slides-ipl-book.pdf): A brief introduction to compiler construction from Chapter one of [the book](http://www.grammaticalframework.org/ipl-book/). Homework: Read [Chapter 1](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf).
 
-coming up soon:
 
-- [Lecture 2.2](lecture-2.2.md): Determinstic Finite Automata. 
+- [Lecture 2.2](lecture-2.2.md): Determinstic Finite Automata. Exercise 2.2.4 ( possibly 2.2.5 and 2.2.6) and Exercise 2.2.10.
+
+coming up soon:
 
 - [Lecture 2.3](): Nondeterminstic Finite Automata. 
 
