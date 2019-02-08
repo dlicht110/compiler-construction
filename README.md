@@ -13,6 +13,7 @@ Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman
 
 coming up soon:
 
-- [Lecture 2.3](): Nondeterminstic Finite Automata. 
+- [Lecture 2.1](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf): Chapter 2 of the book. For installation  introductions see [BNFC](http://bnfc.digitalgrammars.com/). 
 
-- [Lecture 3.1](): Introduction to [BNFC](http://bnfc.digitalgrammars.com/). 
+- [Lecture](): Nondeterminstic Finite Automata. 
+
