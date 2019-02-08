@@ -18,7 +18,7 @@ Create a directory in which you want to clone the BNFC github directory and `cd`
     cd bnfc
     make
     
- Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". Entering `echo $PATH` in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). Either copy `bnfc` into a directory in your path, or change `PATH` to contain `bnfc/source/dist/build/`. More on how to change `PATH` can be found [here](https://www.computerhope.com/issues/ch001647.htm) or in many other places. Let me know if you have a favourite reference.
+ Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". Entering `echo $PATH` in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). Either copy `bnfc` into a directory in your path, or change `PATH` to contain `bnfc/source/dist/build/`. More on how to change `PATH` can be found [here](https://www.computerhope.com/issues/ch001647.htm) or in many other places. [^hidden] Let me know if you have a favourite reference.
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
 
@@ -41,5 +41,7 @@ modify TestCalc.hs as discribed in the [slides](http://www.grammaticalframework.
     echo "1 + 2 * 3" | ./Calculator
     
 you have successfully compiled and run your first program
+
+[^hidden]: In a MacOS file dialogue you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "."
 
 [^footnote]: What is going on here? Remember that `TestCalc` printed the abstract syntax tree. The slides show you how to replace the code of the `main` function that printed the abstract syntax tree by code that interpretes the abstract syntax tree. Essentially, interpreting just means to walk recursively through the astract syntax tree and to call the addition function of the host langauge on encountering a node labelled `EAdd` in the tree,  similarly for `EMul`.
