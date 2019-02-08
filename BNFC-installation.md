@@ -42,6 +42,8 @@ modify TestCalc.hs as discribed in the [slides](http://www.grammaticalframework.
     
 you have successfully compiled and run your first program
 
+---
+
 <a name="hidden">[1]</a>: In a MacOS file dialogue you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "." Alternative you use the terminal as, for example, in `open -a TextEdit .bash_profile` or `open -a Sublime\ Text\ 2 .bash_profile` to open the `.bash_profile` (thanks to Dylan Davis).
 
 <a name="footnote">[2]</a>: What is going on here? Remember that `TestCalc` printed the abstract syntax tree. The slides show you how to replace the code of the `main` function that printed the abstract syntax tree by code that interpretes the abstract syntax tree. Essentially, interpreting just means to walk recursively through the astract syntax tree and to call the addition function of the host langauge on encountering a node labelled `EAdd` in the tree,  similarly for `EMul`.
