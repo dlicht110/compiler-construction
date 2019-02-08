@@ -11,9 +11,11 @@ Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman
 
 - [Lecture 2.2](lecture-2.2.md): Determinstic Finite Automata. Homework: Exercise 2.2.4 (possibly 2.2.5 and 2.2.6) and Exercise 2.2.10 (possibly 2.2.11). These exercises are relevant for tests and final.
 
-coming up soon:
-
 - Lecture 2.3: [Slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) up to page 35, see also Chapter 2 of the book. For installation  introductions see the [BNFC homepage](http://bnfc.digitalgrammars.com) or my [BNFC installation instructions](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation.md). Homework: First install Haskell, then install BNFC. **Deadline: Monday, Feb 11, before class** (If there are problems with installation we will try to sort it out on Monday in class.)
 
+coming up soon:
+
 - [Lecture](): Nondeterminstic Finite Automata. 
+- [Lecture](): Regular Expressions. 
+- [Lecture](): Minimizing Automata. 
 
