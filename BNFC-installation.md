@@ -6,11 +6,10 @@ Download the [binaries](https://github.com/BNFC/bnfc/releases).
 
 ## Working under Linux/MacOS
 
-Installing BNFC under Linux/MacOS requires installing Haskell and compiling the source code.
+Installing BNFC under Linux/MacOS requires installing Haskell and compiling the source code. The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, but installation instructions are out of date, so we need to work a bit to find our way.
 
 Download and install Haskell.
 
-Go to the [BNFC homepage](http://bnfc.digitalgrammars.com/).
 
 Create a directory in which you want to clone the BNFC github directory and `cd` there.
 
