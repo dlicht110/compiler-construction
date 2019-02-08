@@ -1,12 +1,14 @@
 # BNFC installation
 
+The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, but installation instructions are out of date, so we need to work a bit to find our way. I will add information here as we go along and learn more about the best way to get this done.
+
 ## Working under Windows
 
 Download the [binaries](https://github.com/BNFC/bnfc/releases).
 
 ## Working under Linux/MacOS
 
-Installing BNFC under Linux/MacOS requires installing Haskell and compiling the source code. The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, but installation instructions are out of date, so we need to work a bit to find our way.
+Installing BNFC under Linux/MacOS requires installing Haskell and compiling the source code. 
 
 Download and install Haskell.
 
