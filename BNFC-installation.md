@@ -1,6 +1,6 @@
 # BNFC installation
 
-To to the [BNFC homepage](http://bnfc.digitalgrammars.com/).
+Go to the [BNFC homepage](http://bnfc.digitalgrammars.com/).
 
 Create a directory in which you want to clone the BNFC github directory and `cd` there.
 
