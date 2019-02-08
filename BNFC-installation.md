@@ -13,7 +13,7 @@ Create a directory in which you want to clone the BNFC github directory and `cd`
     echo "23 + 4 * 70" | ./TestCalc 
     cp ../document/tutorial/calc/haskell/Interpreter.hs .
   
-modify TestCalc.hs as discribed in the book/slides and save the file as Calculator.hs
+modify TestCalc.hs as discribed in the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) on page 33 and save the file as Calculator.hs
   
     ghc --make Calculator.hs
     echo "1 + 2 * 3" | ./Calculator
