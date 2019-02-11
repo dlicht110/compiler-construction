@@ -53,7 +53,7 @@ The next step is to create an interpreter that is able to perform computations s
  
     cp ../document/tutorial/calc/haskell/Interpreter.hs .
   
-modify TestCalc.hs as discribed in the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) on page 33 and save the file as Calculator.hs <sup>[[2]](#footnote)</sup>
+Open TestCalc.hs in a text editor, then modify it as discribed in the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) on page 33 and save it as Calculator.hs <sup>[[2]](#footnote)</sup>
   
     ghc --make Calculator.hs
     echo "1 + 2 * 3" | ./Calculator
