@@ -10,7 +10,7 @@ There are several possibilities
 
 - Download the [binaries](https://github.com/BNFC/bnfc/releases) ... it may be the case that Windows does not know about `make` ... installing cygwin is a solution ...
 
-- Install Linux from the Windows store and follow the instructions in the next section
+- Install Linux from the Windows store and follow the instructions in the next section ... this maybe preferable as it puts us all on the same page ...
 
 ## Working under Linux/MacOS
 
