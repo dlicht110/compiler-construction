@@ -2,6 +2,8 @@
 
 The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, but installation instructions in the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) are out of date, so we need to work a bit to find our way. I will add information here as we go along and learn more about the best way to get this done. Let me know about anything that may be usefull to add. 
 
+(Thanks to Andreas Abel for valuable advice.)
+
 ## Working under Windows
 
 I don't use Windows, so I am dependent on your feedback to put more information here ...
