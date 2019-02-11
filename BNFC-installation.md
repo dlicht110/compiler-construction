@@ -4,11 +4,13 @@ The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, 
 
 ## Working under Windows
 
-Download the [binaries](https://github.com/BNFC/bnfc/releases).
-
 I don't use Windows, so I am dependent on your feedback to put more information here ...
 
-it may be the case that Windows does not know about `make` ... installing cygwin is a solution ...
+There are several possibilities
+
+- Download the [binaries](https://github.com/BNFC/bnfc/releases) ... it may be the case that Windows does not know about `make` ... installing cygwin is a solution ...
+
+- Install Linux from the Windows store and follow the instructions in the next section
 
 ## Working under Linux/MacOS
 
@@ -19,9 +21,11 @@ Download and install Haskell.
 Create a directory in which you want to clone the BNFC github directory and `cd` there in a terminal. Then perform the following commands.
 
     git clone https://github.com/BNFC/bnfc
-    cd bnfc
+    cd bnfc  
     make
     
+If you don't have `make` try `sudo apt install make`.
+
 The last lines of the compilation give me
 
            Configuring BNFC-2.8.3...
