@@ -8,6 +8,8 @@ Download the [binaries](https://github.com/BNFC/bnfc/releases).
 
 I don't use Windows, so I am dependent on your feedback to put more information here ...
 
+it may be the case that Windows does not know about `make` ... installing cygwin is a solution ...
+
 ## Working under Linux/MacOS
 
 Installing BNFC under Linux/MacOS requires installing Haskell and compiling the source code. 
