@@ -12,7 +12,7 @@ it may be the case that Windows does not know about `make` ... installing cygwin
 
 ## Working under Linux/MacOS
 
-Installing BNFC under Linux/MacOS requires installing Haskell and compiling the source code. 
+Installing BNFC under Linux/MacOS requires installing Haskell and Cabal and compiling the source code. 
 
 Download and install Haskell.
 
