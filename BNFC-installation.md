@@ -26,7 +26,7 @@ Create a directory in which you want to clone the BNFC github directory and `cd`
     
 If you don't have `make` try `sudo apt install make`.
 
-The last lines of the compilation give me
+After calling `make` I get a long list of output finishing with
 
            Configuring BNFC-2.8.3...
            cabal: Encountered missing dependencies:
