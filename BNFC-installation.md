@@ -40,7 +40,7 @@ Now we need to make sure that the operating system finds bnfc when typing `bnfc`
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
 
-We can now continue with creating a parser for our calculator.
+We can now continue with creating a parser for our calculator. This needs the Haskell lexer [Alex](https://www.haskell.org/alex/) and parser [Happy](https://www.haskell.org/happy/). Alex and Happy are part of the Haskell Platform, so you may already have them installed.
 
     cd examples
     bnfc -m -haskell Calc.cf
@@ -55,12 +55,16 @@ The next step is to create an interpreter that is able to perform computations s
   
 (You may want to open `Interpreter.hs` in a text editor ... if you have never seen Haskell before, I hope you are impressed by how simple it is ... essentially just 5 lines of code.)
 
-Open TestCalc.hs in a text editor, then modify it as discribed in the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) on page 33 and save it as Calculator.hs. <sup>[[2]](#footnote)</sup> It is important to import the interpreter and replace the main function (also consider that indentation can make a difference in Haskell).
+Open `TestCalc.hs` in a text editor, then modify it as discribed in the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) on page 33 and save it as Calculator.hs. <sup>[[2]](#footnote)</sup> It is important to import the interpreter and replace the main function (also consider that indentation can make a difference in Haskell).
   
     ghc --make Calculator.hs
     echo "1 + 2 * 3" | ./Calculator
     
+which should produce the answer `7`.
+    
 Great, you have successfully compiled and run your first program.
+
+## 
 
 ---
 
