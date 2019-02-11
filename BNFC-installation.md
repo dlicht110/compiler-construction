@@ -62,6 +62,6 @@ you have successfully compiled and run your first program
 
 ---
 
-<a name="hidden">[1]</a>: In a MacOS file dialogue you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "." Alternative you use the terminal as, for example, in `open -a TextEdit .bash_profile` or `open -a Sublime\ Text\ 2 .bash_profile` to open the `.bash_profile` (thanks to Dylan Davis).
+<a name="hidden">[1]</a>: In a MacOS file dialogue you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "." Alternatively, use the terminal as, for example, in `open -a TextEdit .bash_profile` or `open -a Sublime\ Text\ 2 .bash_profile` to open the `.bash_profile` (thanks to Dylan Davis).
 
 <a name="footnote">[2]</a>: What is going on here? Remember that `TestCalc` printed the abstract syntax tree. The slides show you how to replace the code of the `main` function that printed the abstract syntax tree by code that interpretes the abstract syntax tree. Essentially, interpreting is very similar to printing. In both cases one walks recursively through the abstract syntax tree. For interpreting as opposed to printing, instead of calling the print function, just call the addition function of the host langauge on encountering a node labelled `EAdd` in the tree (imilarly for `EMul`).
