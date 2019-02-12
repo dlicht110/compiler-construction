@@ -2,7 +2,9 @@
 
 See the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) for reference and more detail. The self-check is devided into a theory and a practice part.
 
-## Practice: Parsing C-- using BNFC
+## Practice: 
+
+### Parsing C-- using BNFC
 
 You need to be able to recreate the following in Haskell or Java. According to the tutorial, C or C++ should also work.
 
@@ -14,7 +16,7 @@ and saving the "Complete grammar for C--" of the tutorial in a file
 
     Cmm.cf
 
-### Haskell
+#### Haskell
 
 Run
 
@@ -28,7 +30,7 @@ and check that you get the answer
 
 followed by the [Abstract Syntax] and the [Linearized tree].
 
-### Java
+#### Java
 
 Run
 
