@@ -16,23 +16,27 @@ and saving the "Complete grammar for C--" of the tutorial in a file
 
 ### Haskell
 
+Run
+
     bnfc -m haskell Cmm.cf
     make
     ./TestCmm fibonacci.cmm
 
-which should answer
+and check that you get the answer
 
         Parse Successful!
 
-and then display the [Abstract Syntax] and the [Linearized tree].
+followed by the [Abstract Syntax] and the [Linearized tree].
 
 ### Java
+
+Run
 
     bnfc -m java Cmm.cf
     make
     java Cmm/Test <fibonacci.cmm
   
-withe same output as for Haskell, see above.
+and check that you get the same output as for Haskell, see above.
 
 ## Answer the following questions
 
