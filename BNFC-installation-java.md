@@ -19,6 +19,12 @@ Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) by followin
 
 Install [Cup](http://www2.cs.tum.edu/projects/cup/), the Java parser generator.
 
+Now
+
+    bnfc -m -java Calc.cf
+    make
+ 
+should result in producing a bunch of `.java` files as described on page 12 of the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf).
 
 
 
