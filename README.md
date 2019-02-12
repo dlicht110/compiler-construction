@@ -15,7 +15,7 @@ Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman
 
 - Lab 3.1: The aim of this lab is for everybody to be able to replicate my [BNFC installation instructions](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation.md). **From today on I will assume that everybody has bnfc installed and is able to run the calculator. Let me know if this is not the case.**
 
-- Lecture 3.2: The aim of this lecture is to finish covering the material of Chapter 2 of [the book](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf), the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) and the [BNFC](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html).
+- Lecture 3.2: The aim of this lecture is to finish covering the material of Chapter 2 in [the book](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf) and the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) and of the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html).
 
 coming up soon:
 
