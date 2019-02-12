@@ -12,13 +12,13 @@ There are several possibilities
 
 - Download the [binaries](https://github.com/BNFC/bnfc/releases) ... it may be the case that Windows does not know about `make` ... installing cygwin is a solution ...
 
-- Install Linux from the Windows store and follow the instructions in the next section ... this maybe preferable as it puts us all on the same page ...
+- Install Linux from the Windows store and follow the instructions in the next section ... this maybe preferable as it puts us all on the same page ... specifically there is the Windows Subsystem for Linux (WSL), Ubuntu specifically. Any Windows 10 user can install WSL on their pc. <sup>[[1]](#haskell)</sup>
 
 ## Working under Linux/MacOS
 
 Installing BNFC under Linux/MacOS requires installing the programming language [Haskell](https://www.haskell.org/) first. You also need the package management system [Cabal](https://www.haskell.org/cabal/), but it is already part of the Haskell platform. So the first step should be:
 
-Download and install the [Haskell platform](https://www.haskell.org/platform/).
+Download and install the [Haskell platform](https://www.haskell.org/platform/). <sup>[[1]](#haskell)</sup>
 
 Create a directory in which you want to clone the BNFC github directory and `cd` there in a terminal. Then perform the following commands.
 
@@ -38,7 +38,7 @@ After calling `make` I get a long list of output finishing with
         
 As far as I understand these can be ignored as long as the executable `bnfc` was generated.
 
-Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". Entering `echo $PATH` in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). Either copy `bnfc` into a directory in your path, or change `PATH` to contain `bnfc/source/dist/build/`. More on how to change `PATH` can be found [here](https://www.computerhope.com/issues/ch001647.htm) or in many other places. <sup>[[1]](#hidden)</sup> Let me know if you have a favourite reference.
+Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". Entering `echo $PATH` in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). Either copy `bnfc` into a directory in your path, or change `PATH` to contain `bnfc/source/dist/build/`. More on how to change `PATH` can be found [here](https://www.computerhope.com/issues/ch001647.htm) or in many other places. <sup>[[2]](#hidden)</sup> Let me know if you have a favourite reference.
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
 
@@ -57,7 +57,7 @@ The next step is to create an interpreter that is able to perform computations s
   
 (You may want to open `Interpreter.hs` in a text editor ... if you have never seen Haskell before, I hope you are impressed by how simple it is ... essentially just 5 lines of code.)
 
-Open `TestCalc.hs` in a text editor, then modify it as discribed in the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) on page 33 and save it as Calculator.hs. <sup>[[2]](#footnote)</sup> It is important to import the interpreter and replace the main function (also consider that indentation can make a difference in Haskell).
+Open `TestCalc.hs` in a text editor, then modify it as discribed in the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) on page 33 and save it as Calculator.hs. <sup>[[3]](#footnote)</sup> It is important to import the interpreter and replace the main function (also consider that indentation can make a difference in Haskell).
   
     ghc --make Calculator.hs
     echo "1 + 2 * 3" | ./Calculator
@@ -70,6 +70,15 @@ Great, you have successfully compiled and run your first program.
 
 ---
 
-<a name="hidden">[1]</a>: In a MacOS file dialogue you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "." Alternatively, use the terminal as, for example, in `open -a TextEdit .bash_profile` or `open -a Sublime\ Text\ 2 .bash_profile` or `open -a visual\ studio\ code TestCalc.hs` to open the `.bash_profile` (thanks to Dylan Davis).
+<a name="haskell">[1]</a>: Either installing the Haskell platform, see below, or installing
 
-<a name="footnote">[2]</a>: What is going on here? Remember that `TestCalc` printed the abstract syntax tree. The slides show you how to replace the code of the `main` function that printed the abstract syntax tree by code that interpretes the abstract syntax tree. Essentially, interpreting is very similar to printing. In both cases one walks recursively through the abstract syntax tree. For interpreting as opposed to printing, instead of calling the print function, just call the addition function of the host langauge on encountering a node labelled `EAdd` in the tree (imilarly for `EMul`).
+    sudo apt install make
+    sudo apt install happy
+    sudo apt install alex
+    sudo apt install ghc
+
+separately should work (thanks to Majid Aziz).
+
+<a name="hidden">[2]</a>: In a MacOS file dialogue you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "." Alternatively, use the terminal as, for example, in `open -a TextEdit .bash_profile` or `open -a Sublime\ Text\ 2 .bash_profile` or `open -a visual\ studio\ code TestCalc.hs` to open the `.bash_profile` (thanks to Dylan Davis).
+
+<a name="footnote">[3]</a>: What is going on here? Remember that `TestCalc` printed the abstract syntax tree. The slides show you how to replace the code of the `main` function that printed the abstract syntax tree by code that interpretes the abstract syntax tree. Essentially, interpreting is very similar to printing. In both cases one walks recursively through the abstract syntax tree. For interpreting as opposed to printing, instead of calling the print function, just call the addition function of the host langauge on encountering a node labelled `EAdd` in the tree (imilarly for `EMul`).
