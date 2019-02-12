@@ -1,3 +1,9 @@
+# BNFC Self Check
+
+See the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) for more material.
+
+## Parsing C--
+
 You need to be able to recreate the following in Haskell or Java. According to the tutorial, C or C++ should also work.
 
 In all cases you should start by saving the fibonacci program of the tutorial into a file called
@@ -8,7 +14,7 @@ and saving the "Complete grammar for C--" of the tutorial in a file
 
   Cmm.cf
 
-## Haskell
+### Haskell
 
   bnfc -m haskell Cmm.cf
   make
@@ -20,7 +26,7 @@ which should answer
 
 and then display the [Abstract Syntax] and the [Linearized tree].
 
-## Java
+### Java
 
   bnfc -m java Cmm.cf
   make
@@ -28,4 +34,6 @@ and then display the [Abstract Syntax] and the [Linearized tree].
   
 withe same output as for Haskell, see above.
 
+## Answer the following questions
 
+- 
