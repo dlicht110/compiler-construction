@@ -38,6 +38,10 @@ Run
   
 and check that you get the same output as for Haskell, see above.
 
+### Exercise
+
+Write your own C-- program and parse it.
+
 ## Theory: Answer the following questions
 
 If you are unsure about the answers consult Chapter 2 in [the book](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf) and the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) and also the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html).
