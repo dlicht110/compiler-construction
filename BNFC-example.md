@@ -45,9 +45,7 @@ Write your own C-- program and parse it.
 ### Exercise
 
 ### Exercise
-You will not know the programming language Promela. In this exercise you will see how to use a BNF in order to understand whether a program in a programming language you don't know is a legal program. In other words, the task is to take the [Promela grammar](http://spinroot.com/spin/Man/grammar.html) and parse the following program by hand. Return and error message if the program cannot be parsed.
-
-/* mutex, Peterson */
+You will not know the programming language Promela. In this exercise you will see how to use a BNF in order to understand whether a program in a programming language you don't know is a legal program. In other words, the task is to take the [Promela grammar](http://spinroot.com/spin/Man/grammar.html) and parse the following program by hand. Return and error message if the program cannot be parsed. (The program is a variation of the [Peterson algorithm](https://en.wikipedia.org/wiki/Peterson%27s_algorithm).)
 
 ```
 bool	turn, flag[2];
@@ -60,19 +58,18 @@ L1:  me = _pid;
 L2:  other = 1 - _pid;
 
 L3: again: flag[me]=1;
-L4:        turn=other;
-L5:     ! (flag[other] && turn == other) ->
+L4: turn=other;
+L5: ! (flag[other] && turn == other) ->
 
-        /* begin critical section */
+/* begin critical section */
 L6:	cnt++;
 L7:	printf("cnt=%d \n", cnt); 
-L8:     assert(cnt == 1); 
-L9:     cnt--;        
-
-L10:        flag[me]=0;
-        /* end critical section */
+L8: assert cnt == 1; 
+L9: cnt--;        
+L10: flag[me]=0;
+/* end critical section */
  
-L11:	goto again
+L11: goto again
 }
 
 #define flag0 (flag[0] == 0)
