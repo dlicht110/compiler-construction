@@ -2,7 +2,7 @@
 
 See the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) for reference and more detail. The self-check is devided into a theory and a practice part.
 
-## Practice: Parsing C--
+## Practice: Parsing C-- using BNFC
 
 You need to be able to recreate the following in Haskell or Java. According to the tutorial, C or C++ should also work.
 
