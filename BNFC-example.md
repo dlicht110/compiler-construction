@@ -52,22 +52,22 @@ byte	cnt;
 active [2] proctype P1()
 {	pid me, other;
 
-L1:  me = _pid;
-L2:  other = 1 - _pid;
+    me = _pid;
+    other = 1 - _pid;
 
-L3: again: flag[me]=1;
-L4: turn=other;
-L5: ! (flag[other] && turn == other) ->
+    again: flag[me]=1;
+    turn=other;
+    ! (flag[other] && turn = other) ->
 
-/* begin critical section */
-L6:	cnt++;
-L7:	printf("cnt=%d \n", cnt); 
-L8: assert cnt == 1; 
-L9: cnt--;        
-L10: flag[me]=0;
-/* end critical section */
+    /* begin critical section */
+    cnt++;
+    printf("cnt=%d \n", cnt); 
+    assert cnt == 1; 
+    cnt--;        
+    flag[me]=0;
+    /* end critical section */
  
-L11: goto again
+    goto again
 }
 
 #define flag0 (flag[0] == 0)
