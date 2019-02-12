@@ -49,7 +49,7 @@ You will not know the programming language Promela. In this exercise you will se
 
 /* mutex, Peterson */
 
-'''
+```
 bool	turn, flag[2];
 byte	cnt;
 
@@ -77,7 +77,7 @@ L11:	goto again
 
 #define flag0 (flag[0] == 0)
 #define flag1 (flag[0] == 1)
-'''
+```
 
 
 ## Theory: Answer the following questions
