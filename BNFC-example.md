@@ -42,6 +42,44 @@ and check that you get the same output as for Haskell, see above.
 
 Write your own C-- program and parse it.
 
+### Exercise
+
+### Exercise
+You will not know the programming language Promela. In this exercise you will see how to use a BNF in order to understand whether a program in a programming language you don't know is a legal program. In other words, the task is to take the [Promela grammar](http://spinroot.com/spin/Man/grammar.html) and parse the following program by hand. Return and error message if the program cannot be parsed.
+
+/* mutex, Peterson */
+
+'''
+bool	turn, flag[2];
+byte	cnt;
+
+active [2] proctype P1()
+{	pid me, other;
+
+L1:  me = _pid;
+L2:  other = 1 - _pid;
+
+L3: again: flag[me]=1;
+L4:        turn=other;
+L5:     ! (flag[other] && turn == other) ->
+
+        /* begin critical section */
+L6:	cnt++;
+L7:	printf("cnt=%d \n", cnt); 
+L8:     assert(cnt == 1); 
+L9:     cnt--;        
+
+L10:        flag[me]=0;
+        /* end critical section */
+ 
+L11:	goto again
+}
+
+#define flag0 (flag[0] == 0)
+#define flag1 (flag[0] == 1)
+'''
+
+
 ## Theory: Answer the following questions
 
 If you are unsure about the answers consult Chapter 2 in [the book](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf) and the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) and also the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html).
@@ -53,4 +91,3 @@ If you are unsure about the answers consult Chapter 2 in [the book](http://www.c
 - Explain the concept of **algebraic data types**. How are algebraic data types programmed in Haskell and Java?
 
 - Explain the BNFC notation for **grammars**. Can you write out in detail how to derive the program Fibonacci from the grammar of C-- ?
-
