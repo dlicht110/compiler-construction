@@ -1,6 +1,6 @@
 # BNFC Self Check
 
-See the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) for more material.
+See the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) for reference and more detail.
 
 ## Parsing C--
 
