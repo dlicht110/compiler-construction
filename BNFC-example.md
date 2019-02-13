@@ -71,9 +71,6 @@ active [2] proctype P1()
  
     goto again
 }
-
-#define flag0 (flag[0] == 0)
-#define flag1 (flag[0] == 1)
 ```
 
 
