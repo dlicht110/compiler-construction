@@ -20,7 +20,7 @@ and saving the "Complete grammar for C--" of the tutorial in a file
 
 Run
 
-    bnfc -m haskell Cmm.cf
+    bnfc -m -haskell Cmm.cf
     make
     ./TestCmm fibonacci.cmm
 
@@ -34,7 +34,7 @@ followed by the [Abstract Syntax] and the [Linearized tree].
 
 Run
 
-    bnfc -m java Cmm.cf
+    bnfc -m -java Cmm.cf
     make
     java Cmm/Test <fibonacci.cmm
   
