@@ -18,7 +18,7 @@ There are several possibilities
 
 Installing BNFC under Linux/MacOS requires installing the programming language [Haskell](https://www.haskell.org/) first. You also need the package management system [Cabal](https://www.haskell.org/cabal/), but it is already part of the Haskell platform. So the first step should be:
 
-Download and install the [Haskell platform](https://www.haskell.org/platform/). <sup>[[1]](#haskell)</sup>
+Download and install the [Haskell platform](https://www.haskell.org/platform/). 
 
 Create a directory in which you want to clone the BNFC github directory and `cd` there in a terminal. Then perform the following commands.
 
