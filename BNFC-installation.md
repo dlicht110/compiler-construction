@@ -42,7 +42,7 @@ Now we need to make sure that the operating system finds bnfc when typing `bnfc`
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
 
-We can now continue with creating a parser for our calculator. This needs the Haskell lexer [Alex](https://www.haskell.org/alex/) and parser [Happy](https://www.haskell.org/happy/). Alex and Happy are part of the Haskell Platform, so you may already have them installed.
+We can now continue with creating a parser for our calculator. This needs the Haskell lexer [Alex](https://www.haskell.org/alex/) and parser [Happy](https://www.haskell.org/happy/). Alex and Happy are part of the Haskell Platform, so you should already have them installed.
 
     cd examples
     bnfc -m -haskell Calc.cf
