@@ -40,11 +40,11 @@ Run
   
 and check that you get the same output as for Haskell, see above.
 
-### Exercise
+### Exercise 1
 
 Write your own C-- program and parse it.
 
-### Exercise
+### Exercise 2
 You will not know the programming language Promela. In this exercise you will see how to use a BNF in order to understand whether a program in a programming language you don't know is a legal program (this will help you to learn how to write your own grammar later). In other words, the task is to take the [Promela grammar](http://spinroot.com/spin/Man/grammar.html) and parse the following program by hand. Return an error message if the program cannot be parsed. (The program is a variation of the [Peterson algorithm](https://en.wikipedia.org/wiki/Peterson%27s_algorithm).)
 
 ```
@@ -77,7 +77,7 @@ active [2] proctype P1()
 ```
 
 
-## Theory: Answer the following questions
+## Theory: Answer the following questions (Exercise 3)
 
 If you are unsure about the answers consult Chapter 2 in [the book](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf) and the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) and also the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html).
 
