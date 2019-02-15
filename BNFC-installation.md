@@ -68,7 +68,7 @@ Great, you have successfully compiled and run your first program.
 
 ## Installing the Java lexer and parser
 
-
+Follow [my instructions here](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation-java.md).
 
 ---
 
