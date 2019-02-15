@@ -3,7 +3,7 @@ Where are we in the course? So far, we explained the basic ideas of compiler con
 
 Lexers implement mathematical structures called determinstic finite automata (DFA). You have implemented some DFAs in Assignment 1 already. 
 
-The plan for the next lectures is to learn how to go from regular expressions to non-deterministic automata to deterministic automata. Here is a [preview](https://swtch.com/~rsc/regexp/regexp1.html).
+The plan for the next lectures is to learn how to go from regular expressions to non-deterministic automata to deterministic automata. Here is a [good online article about history and implementations](https://swtch.com/~rsc/regexp/regexp1.html).
 
 Let us get started learning the basics.
 
