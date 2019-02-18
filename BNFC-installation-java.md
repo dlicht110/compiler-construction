@@ -15,7 +15,7 @@ it knows the location of the JLex and Cup. In my case I added to my `.bash_profi
 
     export CLASSPATH=$CLASSPATH:.:/usr/local/bin/java/:/usr/local/bin/java/Cup:/usr/local/bin/java/JLex
 
-Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/). To quote from the tutorial "JLex is just one Java file. Put it in some directory, e.g. /usr/local/java/JLex. Compile it with javac Main.java in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). 
+Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/). To quote from the tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`. Compile it with `javac Main.java` in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). 
 
 Install [Cup](http://www2.cs.tum.edu/projects/cup/), the Java parser generator.
 
