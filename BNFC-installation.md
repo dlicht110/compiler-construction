@@ -38,11 +38,7 @@ After calling `make` I get a long list of output finishing with
         
 As far as I understand these can be ignored as long as the executable `bnfc` was generated.
 
-Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". Entering `echo $PATH` in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). Either copy `bnfc` into a directory in your path, or change `PATH` to contain `bnfc/source/dist/build/`. I added the line
-
-        export PATH="~/github/bnfc/source/dist/build/bnfc:$PATH"
-        
-to my `.bash_profile` (because I installed `bnfc` into a directory called `github` in my home directory (`~` denotes the home directory)). More on how to change `PATH` can be found [here](https://www.computerhope.com/issues/ch001647.htm) or in many other places. <sup>[[2]](#hidden)</sup> Let me know if you have a favourite reference.
+Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". I collected some information on [setting the PATH variable](https://github.com/alexhkurz/compiler-construction/blob/master/PATH.md). 
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
 
@@ -77,7 +73,5 @@ Follow [my instructions here](https://github.com/alexhkurz/compiler-construction
 ---
 
 <a name="haskell">[1]</a>: Thanks to Majid Aziz.
-
-<a name="hidden">[2]</a>: In a MacOS file dialogue you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "." Alternatively, use the terminal as, for example, in `open -a TextEdit .bash_profile` or `open -a Sublime\ Text\ 2 .bash_profile` or `open -a visual\ studio\ code TestCalc.hs` to open the `.bash_profile` (thanks to Dylan Davis).
 
 <a name="footnote">[3]</a>: What is going on here? Remember that `TestCalc` printed the abstract syntax tree. The slides show you how to replace the code of the `main` function that printed the abstract syntax tree by code that interpretes the abstract syntax tree. Essentially, interpreting is very similar to printing. In both cases one walks recursively through the abstract syntax tree. For interpreting as opposed to printing, instead of calling the print function, just call the addition function of the host langauge on encountering a node labelled `EAdd` in the tree (imilarly for `EMul`).
