@@ -19,6 +19,8 @@ Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman
 
 - Lecture 3.3: [Install the Java lexer and parser](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation-java.md). The aim of this lecture is to finish the material of Chapter 2 in [the book](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf) and the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) and of the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html). **Homework:**  [Install the Java lexer and parser](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation-java.md) and finish Exercise 2 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
 
+- Lecture 4.1: [Working towards Assignment 2](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html).
+
 coming up soon:
 
 - [Lecture](): Nondeterminstic Finite Automata. 
