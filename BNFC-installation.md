@@ -38,7 +38,11 @@ After calling `make` I get a long list of output finishing with
         
 As far as I understand these can be ignored as long as the executable `bnfc` was generated.
 
-Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". Entering `echo $PATH` in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). Either copy `bnfc` into a directory in your path, or change `PATH` to contain `bnfc/source/dist/build/`. More on how to change `PATH` can be found [here](https://www.computerhope.com/issues/ch001647.htm) or in many other places. <sup>[[2]](#hidden)</sup> Let me know if you have a favourite reference.
+Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". Entering `echo $PATH` in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). Either copy `bnfc` into a directory in your path, or change `PATH` to contain `bnfc/source/dist/build/`. I added the line
+
+        export PATH="~/github/bnfc/source/dist/build/bnfc:$PATH"
+        
+to my `.bash_profile` (because I installed `bnfc` into a directory called `github` in my home directory (`~` denotes the home directory)). More on how to change `PATH` can be found [here](https://www.computerhope.com/issues/ch001647.htm) or in many other places. <sup>[[2]](#hidden)</sup> Let me know if you have a favourite reference.
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
 
