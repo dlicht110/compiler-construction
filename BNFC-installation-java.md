@@ -13,9 +13,9 @@ Java part of the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-t
 First, we need to install the latest version of the Java lexer and parser. It is necessary to change the CLASSPATH variable so that
 it knows the location of the JLex and Cup. In my case I added to my `.bash_profile`
 
-    export CLASSPATH=$CLASSPATH:.:/usr/local/bin/java/:/usr/local/bin/java/Cup:/usr/local/bin/java/JLex
-
 Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`. Compile it with `javac Main.java` in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). 
+
+You can check the value of `CLASSPATH` by typing `echo $CLASSPATH`. Make sure that the directory in which you compiled `javac Main.java` is in the CLASSPATH.
 
 Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the Java parser generator.
 
