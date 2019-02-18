@@ -11,7 +11,7 @@ should all work. For Haskell, see the previous lecture. Here we will look at how
 Java part of the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) to work.
 
 First, we need to install the latest version of the Java lexer and parser. It is necessary to change the CLASSPATH variable so that
-it knows the location of the JLex and Cup. In my case I created directories `/usr/local/bin/java`and `/usr/local/bin/java/Cup`and `/usr/local/bin/java/JLex` and then added to my `.bash_profile`
+it knows the location of the JLex and Cup. In my case I created directories `/usr/local/bin/java`and `/usr/local/bin/java/Cup`and `/usr/local/bin/java/JLex` and then added to my `.bash_profile` (adding to the `.bash_profile` is important so that all future terminals/shells know about `CLASSPATH`)
 
      export CLASSPATH=$CLASSPATH:.:/usr/local/bin/java/:/usr/local/bin/java/Cup:/usr/local/bin/java/JLex
 
