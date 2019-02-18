@@ -23,7 +23,7 @@ You can check the value of `CLASSPATH` by typing `echo $CLASSPATH`. Make sure th
 
 Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the Java parser generator. In my case, I put `java-cup-11b.jar` into `/usr/local/bin/java/Cup` and then unzipped it using `sudo unzip java-cup-11b.jar` (you may not need sudo).
 
-Now
+Now, going back to the directory `examples` in the BNFC directory downloaded from github
 
     bnfc -m -java Calc.cf
     make
