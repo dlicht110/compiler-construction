@@ -15,6 +15,10 @@
   in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). If you want that an exectuable is automatically found when you type its name in the terminal, you need to make sure that the directory which contains the exectuable is in the path.
   
 - For this we want to change the file `.bash_profile` which contains the information known to all terminals.
+
+- Adding such information to the `.bash_profile` is important so that all future terminals/shells know about `PATH` (and later also `CLASSPATH`).  
+
+- If you change the `.bash_profile` after you opened a terminal, this terminal will not know that `.bash_profile` changed. You can either do a `source ~/.bash_profile` in that terminal or simply close the terminal and open a new one.
   
 ## Opening a hidden file in a text editor in MacOS
 
