@@ -12,7 +12,7 @@
 
                 echo $PATH
         
-in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). If you want that an exectuable is automatically found when you type its name in the terminal, you need to make sure that the directory which contains the exectuable is in the path.
+  in your terminal shows the value of the variable `PATH`, that is, all the directories at which the operating system automatically looks for executables (binaries). If you want that an exectuable is automatically found when you type its name in the terminal, you need to make sure that the directory which contains the exectuable is in the path.
 
 ## Putting `bnfc` into the path
 
