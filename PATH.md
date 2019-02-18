@@ -22,13 +22,13 @@
   
 ## Opening a hidden file in a text editor in MacOS
 
-`.bash_profile` is a so-called hidden file. Its first character is a `.` which means that it is usually not listed when you try to find the file. Opening hidden files in MacOS is a bit of  a pain. 
+`.bash_profile` is a so-called hidden file. Its first character is a `.` which means that the file is usually not listed when you try to find it. Opening hidden files in MacOS is a bit of a pain. 
 
-In a MacOS file dialogue in the "Finder" you can see hidden files such as `.bash_profile` by simultaneously holding down the keys "command" and "shift" and "."
+In a MacOS file dialogue in the "Finder" you can see hidden files such as `.bash_profile` (if they exist) by simultaneously holding down the keys "command" and "shift" and "."
 
 If you want to open `.bash_profile` from the terminal, cd into your home directory and enter `open -a TextEdit .bash_profile` or `open -a Sublime\ Text\ 2 .bash_profile` or `open -a visual\ studio\ code TestCalc.hs` to open the `.bash_profile` (thanks to Dylan Davis).
 
-If `.bash_profile` does not exist create a new one.
+If `.bash_profile` does not exist create one.
 
 ## Putting `bnfc` into the path
 
