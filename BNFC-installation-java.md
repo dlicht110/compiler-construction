@@ -28,6 +28,19 @@ Now, going back to the directory `examples` in the BNFC directory downloaded fro
  
 should result in producing a bunch of `.java` files as described on page 12 of the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf).
 
+To test whether the parser works enter 
+
+        echo "23 + 4 * 70" | java Calc/Test 
+        
+which should give you 
+
+                Parse Succesful!
+                [Abstract Syntax]
+                (EAdd (EInt 23) (EMul (EInt 4) (EInt 70))) 
+                [Linearized Tree]
+                23 + 4 * 70
+
+
 
 
 
