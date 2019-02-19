@@ -7,7 +7,7 @@ The IPL book is written with Haskell and Java in mind. BNFC also supports other 
     bnfc -m -java Calc.cf      # to generate Java
     bnfc -m -haskell Calc.cf      # to generate Haskell
     
-should all work. For Haskell, see the previous lecture. Here we will look at how to get the 
+should all work. I will assume that you successfully [my BNFC installation instructions](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation.md). Here we will look at how to get the 
 Java part of the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) to work.
 
 First, we need to install the latest version of the Java lexer and parser. It is necessary to change the CLASSPATH variable so that
