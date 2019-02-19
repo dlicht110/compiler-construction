@@ -30,15 +30,15 @@ should result in producing a bunch of `.java` files as described on page 12 of t
 
 To test whether the parser works enter 
 
-        echo "23 + 4 * 70" | java Calc/Test 
+    echo "23 + 4 * 70" | java Calc/Test 
         
 which should give you 
 
-                Parse Succesful!
-                [Abstract Syntax]
-                (EAdd (EInt 23) (EMul (EInt 4) (EInt 70))) 
-                [Linearized Tree]
-                23 + 4 * 70
+            Parse Succesful!
+            [Abstract Syntax]
+            (EAdd (EInt 23) (EMul (EInt 4) (EInt 70))) 
+            [Linearized Tree]
+            23 + 4 * 70
 
 
 
