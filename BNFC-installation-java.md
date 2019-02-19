@@ -2,10 +2,10 @@
 
 The IPL book is written with Haskell and Java in mind. BNFC also supports other programming languages. For example
 
-    bnfc -m -c       FILE.cf      # to generate C
-    bnfc -m -cpp FILE.cf      # to generate C++
-    bnfc -m -java FILE.cf      # to generate Java
-    bnfc -m -haskell FILE.cf      # to generate Haskell
+    bnfc -m -c  Calc.cf      # to generate C
+    bnfc -m -cpp Calc.cf      # to generate C++
+    bnfc -m -java Calc.cf      # to generate Java
+    bnfc -m -haskell Calc.cf      # to generate Haskell
     
 should all work. For Haskell, see the previous lecture. Here we will look at how to get the 
 Java part of the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) to work.
