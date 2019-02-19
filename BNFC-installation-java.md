@@ -19,7 +19,11 @@ Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2
 
 You can check the value of `CLASSPATH` by typing `echo $CLASSPATH`. Make sure that the directory in which you compiled `javac Main.java` is in the CLASSPATH.
 
-Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the Java parser generator. In my case, I put `java-cup-11b.jar` into `/usr/local/java/Cup` and then unzipped it using `sudo unzip java-cup-11b.jar` (you may not need sudo).
+Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the Java parser generator. In my case, I put `java-cup-11b.jar` into `/usr/local/java/Cup` and then unzipped it using 
+
+    sudo unzip java-cup-11b.jar
+    
+(you may not need sudo).
 
 Now, going back to the directory `examples` in the BNFC directory downloaded from github
 
