@@ -21,7 +21,7 @@ Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2
 
     sudo javac Main.java 
     
-in that directory". You may also want to look at the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). After compiling `Main.java` my directory `/usr/local/java/JLex` contains (the output below was produced by doing an `ls` in `/usr/local/java/JLex`)
+in that directory". You may also want to look at the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). After compiling `Main.java` my directory `/usr/local/java/JLex` contains (do an `ls` in `/usr/local/java/JLex`)
 
             CAccept.class            CLexGen.class            CUtility.class
             CAcceptAnchor.class      CMakeNfa.class           Main.class
