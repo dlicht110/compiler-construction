@@ -12,8 +12,7 @@ should all work. But to make the Java lexer and parser some more installation wo
 I will assume that you successfully followed [my BNFC installation instructions](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation.md). Here we will look at how to get the 
 Java part of the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) to work.
 
-First, we need to install the latest version of the Java lexer and parser. It is necessary to change the CLASSPATH variable so that
-it knows the location of the JLex and Cup. In my case I created directories `/usr/local/java`and `/usr/local/java/Cup`and `/usr/local/java/JLex` and then [added to my `.bash_profile`](https://github.com/alexhkurz/compiler-construction/blob/master/PATH.md)
+First, we need to install the latest version of the Java lexer JLex and parser generator Cup. It is necessary to change the CLASSPATH variable so that the java compiler knows the location of the JLex and Cup. In my case I created directories `/usr/local/java`and `/usr/local/java/Cup`and `/usr/local/java/JLex` and then [added to my `.bash_profile`](https://github.com/alexhkurz/compiler-construction/blob/master/PATH.md)
 
      export CLASSPATH=$CLASSPATH:.:/usr/local/java/:/usr/local/java/Cup:/usr/local/java/JLex
      
@@ -42,6 +41,8 @@ Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the J
     sudo unzip java-cup-11b.jar
     
 (`sudo` is only needed if you work in a directory such as `/usr/local/` that needs administrator's rights; you could install the files in your home directory instead.)
+
+(If you are installing in the Linux subsystem of Windows you might need to do a `sudo apt-get install unzip`.)
 
 Now, going back to the directory `examples` in the directory `bnfc` downloaded from github, execute
 
