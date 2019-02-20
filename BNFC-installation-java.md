@@ -39,7 +39,7 @@ Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the J
 
     sudo unzip java-cup-11b.jar
     
-(you may not need sudo).
+(`sudo` is only needed if you work in a directory such as `/usr/local/` that needs administrator's rights; you could install the files in your home directory instead.)
 
 Now, going back to the directory `examples` in the directory `bnfc` downloaded from github
 
