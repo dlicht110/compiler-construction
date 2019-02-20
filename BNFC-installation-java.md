@@ -25,14 +25,14 @@ Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the J
     
 (you may not need sudo).
 
-Now, going back to the directory `examples` in the BNFC directory downloaded from github
+Now, going back to the directory `examples` in the directory `bnfc` downloaded from github
 
     bnfc -m -java Calc.cf
     make
  
 should result in producing a bunch of `.java` files as described on page 12 of the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf).
 
-To test whether the parser works enter 
+To test whether the parser works enter (still working in the directory `bnfc/examples')
 
     echo "23 + 4 * 70" | java Calc/Test 
         
