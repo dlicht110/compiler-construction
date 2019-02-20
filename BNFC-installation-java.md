@@ -42,7 +42,7 @@ Install the latest version of [Cup](http://www2.cs.tum.edu/projects/cup/), the J
     
 (`sudo` is only needed if you work in a directory such as `/usr/local/` that needs administrator's rights; you could install the files in your home directory instead.)
 
-(If you are installing in the Linux subsystem of Windows you might need to do a `sudo apt-get install unzip`.)
+(If you are installing in the Linux subsystem of Windows you might need to do a `sudo apt-get install unzip` to install `unzip`.)
 
 Now, going back to the directory `examples` in the directory `bnfc` downloaded from github, execute
 
