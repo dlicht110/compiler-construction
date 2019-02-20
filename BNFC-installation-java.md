@@ -17,7 +17,11 @@ it knows the location of the JLex and Cup. In my case I created directories `/us
      
 (Make sure to respect the distinction between capitalised and non-capitalised letters as in "JLex" vs "jlex".)
 
-Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`. Compile it with `javac Main.java` in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). 
+Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`. Compile it with 
+
+    sudo javac Main.java 
+    
+in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). 
 
 You can check the value of `CLASSPATH` by typing `echo $CLASSPATH`. Make sure that the directory in which you compiled `javac Main.java` is in the CLASSPATH.
 
