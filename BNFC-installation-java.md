@@ -17,7 +17,7 @@ it knows the location of the JLex and Cup. In my case I created directories `/us
      
 (Make sure to respect the distinction between capitalised and non-capitalised letters as in "JLex" vs "jlex". Don't miss out the `:.:`.)
 
-Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`". Compile it with 
+Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the BNFC tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`". Compile it with 
 
     sudo javac Main.java 
     
