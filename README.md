@@ -1,7 +1,7 @@
 # compiler-construction
 Notes and Materials for a course on Compiler Construction Spring 2019 at Chapman University.
 
-Quick link to BNFC installation instructions:
+Quick links to BNFC installation instructions:
 
 - [BNFC: basic installation instructions](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation.md)
 - [BNFC: adding the Java lexer and parser](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation-java.md)
