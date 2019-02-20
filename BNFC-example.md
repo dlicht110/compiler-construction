@@ -8,7 +8,7 @@ See the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.h
 
 You need to be able to recreate the following in Haskell or Java. According to the tutorial, C or C++ should also work.
 
-In all cases you should start by saving the fibonacci program of the tutorial into a file called
+In all cases you should start by saving the [fibonacci program of the BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.html) into a file called
 
     fibonacci.cmm
   
