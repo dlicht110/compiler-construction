@@ -15,13 +15,23 @@ it knows the location of the JLex and Cup. In my case I created directories `/us
 
      export CLASSPATH=$CLASSPATH:.:/usr/local/java/:/usr/local/java/Cup:/usr/local/java/JLex
      
-(Make sure to respect the distinction between capitalised and non-capitalised letters as in "JLex" vs "jlex".)
+(Make sure to respect the distinction between capitalised and non-capitalised letters as in "JLex" vs "jlex". Don't miss out the `:.:`.)
 
 Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`. Compile it with 
 
     sudo javac Main.java 
     
-in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). 
+in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). After compiling `Main.java` my directory `/usr/local/java/JLex` contains (the output below was produced by doing an `ls` in `/usr/local/java/JLex`)
+
+            CAccept.class            CLexGen.class            CUtility.class
+            CAcceptAnchor.class      CMakeNfa.class           Main.class
+            CAlloc.class             CMinimize.class          Main.java
+            CBunch.class             CNfa.class               SparseBitSet$1.class
+            CDTrans.class            CNfa2Dfa.class           SparseBitSet$2.class
+            CDfa.class               CNfaPair.class           SparseBitSet$3.class
+            CEmit.class              CSet.class               SparseBitSet$4.class
+            CError.class             CSimplifyNfa.class       SparseBitSet$BinOp.class
+            CInput.class             CSpec.class              SparseBitSet.class
 
 You can check the value of `CLASSPATH` by typing `echo $CLASSPATH`. Make sure that the directory in which you compiled `javac Main.java` is in the CLASSPATH.
 
