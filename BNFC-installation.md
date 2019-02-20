@@ -38,7 +38,9 @@ After calling `make` I get a long list of output finishing with
         
 As far as I understand these can be ignored as long as the executable `bnfc` was generated.
 
-Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. Use your file browser to find where the exectuable bnfc is. I found it as `bnfc/source/dist/build/bnfc`. Now you need to make sure that it will be "in the path". I collected some information on [setting the PATH variable](https://github.com/alexhkurz/compiler-construction/blob/master/PATH.md). 
+Use your file browser to find where the exectuable `bnfc` is. I found it as `bnfc/source/dist/build/bnfc` (the first occurrence of `bnfc` refers to the directory I cloned from github, the second occurrence refers to the executable).
+
+Now we need to make sure that the operating system finds bnfc when typing `bnfc` in the terminal. For example, if you enter `bnfc --version` you may get a `command not found` message. We need to make sure that `bnfc` will be "in the path". I collected some information on [setting the PATH variable](https://github.com/alexhkurz/compiler-construction/blob/master/PATH.md). 
  
 Now, on entering `bnfc --version` you should see `2.8.3`. (Or some larger number if you are doing this in the future.)
 
