@@ -17,11 +17,11 @@ it knows the location of the JLex and Cup. In my case I created directories `/us
      
 (Make sure to respect the distinction between capitalised and non-capitalised letters as in "JLex" vs "jlex". Don't miss out the `:.:`.)
 
-Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the BNFC tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`". Compile it with 
+Install [JLex](http://www.cs.princeton.edu/~appel/modern/java/JLex/) version 1.2.6 (the latest version). To quote from the BNFC tutorial "JLex is just one Java file. Put it in some directory, e.g. `/usr/local/java/JLex`. Compile it with 
 
     sudo javac Main.java 
     
-in that directory". You may also want to look the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). After compiling `Main.java` my directory `/usr/local/java/JLex` contains (the output below was produced by doing an `ls` in `/usr/local/java/JLex`)
+in that directory". You may also want to look at the instructions in the [readme file](http://www.cs.princeton.edu/~appel/modern/java/JLex/current/README). After compiling `Main.java` my directory `/usr/local/java/JLex` contains (the output below was produced by doing an `ls` in `/usr/local/java/JLex`)
 
             CAccept.class            CLexGen.class            CUtility.class
             CAcceptAnchor.class      CMakeNfa.class           Main.class
