@@ -30,8 +30,7 @@ Lecture by Lecture:
 - Lab/Lecture 4.1: [Working towards Assignment 2](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html).
 [Install the Java lexer and parser](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation-java.md).
 
-- Lab/Lecture 4.2: [Working towards Assignment 2](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html).
-For those who missed this in class there is a **Homework:** Exercise 0 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
+- Lab 4.2: The aim is to sort out any remaining problems with installing BNFC. For those who missed this in class there is a **Homework:** Exercise 0 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
 
 coming up soon:
 
