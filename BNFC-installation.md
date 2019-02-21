@@ -29,7 +29,7 @@ There are two possibilities:
         echo "23 + 4 * 70" | java Calc/Test
 
 
-- Install Linux from the Windows store and follow the instructions in the next section ... this maybe preferable as it puts us all on the same page ... specifically there is the Windows Subsystem for Linux (WSL), Ubuntu specifically. Any Windows 10 user can install WSL on their pc. <sup>[[1]](#haskell)</sup>
+- Install Linux from the Windows store and continue to follow the instructions for Linux/MacOS in the next section ... this maybe preferable as it puts us all on the same page ... specifically there is the Windows Subsystem for Linux (WSL). Any Windows 10 user can install WSL on their pc. <sup>[[1]](#haskell)</sup>
 
 ## Working under Linux/MacOS
 
