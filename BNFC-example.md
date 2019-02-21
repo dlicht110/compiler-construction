@@ -4,7 +4,7 @@ See the [BNFC tutorial](http://bnfc.digitalgrammars.com/tutorial/bnfc-tutorial.h
 
 ## Practice: 
 
-### Parsing C-- using BNFC
+### Exercise 0: Parsing C-- using BNFC
 
 You need to be able to recreate the following in Haskell or Java. According to the tutorial, C or C++ should also work.
 
