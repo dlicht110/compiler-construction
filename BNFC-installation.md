@@ -8,7 +8,7 @@ The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, 
 
 I don't use Windows, so I am dependent on your feedback to put more information here ...
 
-There are two possibilities
+There are two possibilities:
 
 - Download the [binaries](https://github.com/BNFC/bnfc/releases) and install natively under Windows. Here are some instructions due to Ryan Lindner. Let me know if I should add anything.
 
