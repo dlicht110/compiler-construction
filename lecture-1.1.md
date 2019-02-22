@@ -6,7 +6,7 @@
 
 - Join the [Google group for the course](https://groups.google.com/forum/#!forum/chapman-compiler-construction-2019) by following the link and selecting "Apply for membership". Use the group for questions and discussions relating to the course. 
 
-- Assignments are solved in groups of up to three students. I do not recommend working on your own as the assignments involve substantial work. 
+- Assignments are solved in groups of up to three students. I do not recommend working on your own as the assignments (with the possible exception of Assignment 1) involve substantial work. 
 
 - Create a private github repository in which you will maintain the solutions to the assignments. Do not share your code and the work on your assignments with students not in your group. As all groups do the same assignments, sharing code between groups consitutes plagriarim.
 
@@ -24,9 +24,9 @@
   
 ## Assessment:
 
-- 54% of the course: 5 Assignments, first is worth 10%, the others 11%. (As this is the first time I run this course, there is a small chance that the plan will have to be changed, eg in case we go through the material slower than expected ... it is certainly a good idea to get a good start on the first assignments.) To pass an assignment programs need to run and test. I also may ask you to explain your solutions to me during office hours. Each assignment is graded either as pass (full marks) or fail (no marks). The criterion for passing is whether the program performs correctly according to the given specification.
+- 54% of the course: 5 Assignments, first is worth 10%, the others 11%. (As this is the first time I run this course, there is a small chance that the plan will have to be changed, eg in case we go through the material slower than expected ... it is certainly a good idea to get a good start on the first assignments.) To pass an assignment programs need to run and test. I also may ask you to explain your solutions to me during office hours. My default now is that each assignment is graded either as pass (full marks) or fail (no marks), but I may refine this as the course goes on. The main criterion for passing is whether the program performs correctly according to the given specification.
   - Assignment 0 (not assessed): [Let me know](mailto:akurz@chapman.edu?subject=Compiler%20Construction,%20Groups) the group you are in. Deadline Wed Jan 30 (11:59 pm PST).
-  - Assignment 1: Warm up. Tba on Wed. Deadline Wed Feb 6 (11:59 pm PST). 
+  - Assignment 1: [Warm up](https://hackmd.io/s/HyaDeaXzN#). Deadline Wed Feb 6 (11:59 pm PST). 
   - Assignment 2: [Grammar and Parser for C++](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html). Deadline tba
   - Assignment 3: [Type Checker for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment2/assignment2.html).  Deadline  tba  
   - Assignment 4: [Interpreter for CPP](http://www.grammaticalframework.org/ipl-book/assignments/assignment3/assignment3.html).  Deadline  tba  
@@ -58,4 +58,4 @@ One of the main skills you will learn in this course is parsing. It is not only 
 - [music](https://link.springer.com/chapter/10.1007%2F3-540-45722-4_3)
 - ...
 
-In particular the latter links point to parsing and automata theory being a general tool for pattern matching and pattern recognition.
+As a **homework** to do during the whole of the semester look for applications of regular expressions, automata, parsing in areas outside of computer science. Computer science is inherently interdisciplinary as we always develop programs with some application in mind. So thinking outside of the box is important. The point of the examples above is to illustrate parsing and automata theory as a general tool for pattern matching and pattern recognition. I would love to hear about any examples you would suggest adding to the list above ...
