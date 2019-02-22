@@ -45,7 +45,7 @@ and check that you get the same output as for Haskell, see above.
 Write your own C-- program and parse it.
 
 ### Exercise 2
-You will not know the programming language Promela. In this exercise you will see how to use a BNF in order to understand whether a program in a programming language you don't know is a legal program (this will help you to learn how to write your own grammar later). In other words, the task is to take the [Promela grammar](http://spinroot.com/spin/Man/grammar.html) and parse the following program by hand. Return an error message if the program cannot be parsed. (The program is a variation of the [Peterson algorithm](https://en.wikipedia.org/wiki/Peterson%27s_algorithm).)
+You will not know the programming language Promela. In this exercise you will see how to use a BNF in order to understand whether a program in a programming language you don't know is a legal program (this will help you to learn how to write your own grammar later). In other words, the task is to take the [Promela grammar](http://spinroot.com/spin/Man/grammar.html) and parse the following program by hand. Return an error message if the program cannot be parsed. (The program is a variation of the [Peterson algorithm](https://en.wikipedia.org/wiki/Peterson%27s_algorithm).) (If you remember the excursion on goto and structured programming you might wonder why Promela has goto's. The answer is that the meaning of a Promela program is a particular kind of automaton and goto's are often the cleanest way to jump to successor states.)
 
 ```
 bool	turn, flag[2];
@@ -72,6 +72,12 @@ active [2] proctype P1()
     goto again
 }
 ```
+
+**Exercise 2a:** Justify all steps in [this partial parse tree]() by pointing out the corresponding rule of the Promela grammar.
+
+**Exercise 2b:** Continue the parse tree from the previous ecercise until it is complete or until it becomes easy and boring. 
+
+**Exercise 2c:** Find the but in the program, assuming that `pid` is a legal type. [Hint: You save space and time while doing the parsing with pen and paper, if you do not write out the full parse tree, but only maintain the stack (in addition to pen an paper it is also useful to have an erasor to pop elements from the stack.]
 
 
 ## Theory: Answer the following questions (Exercise 3)
