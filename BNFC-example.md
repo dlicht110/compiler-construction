@@ -49,7 +49,7 @@ You will not know the programming language Promela. In this exercise you will se
 
 ```
 bool	turn, flag[2];
-byte	cnt;
+byte	cnt
 
 active [2] proctype P1()
 {	pid me, other;
