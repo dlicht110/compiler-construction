@@ -73,7 +73,7 @@ active [2] proctype P1()
 }
 ```
 
-**Exercise 2a:** Justify all steps in [this partial parse tree]() by pointing out the corresponding rule of the Promela grammar.
+**Exercise 2a:** Justify all steps in [this partial parse tree](https://github.com/alexhkurz/compiler-construction/blob/master/partial-parse-tree.pdf) by pointing out the corresponding rule of the Promela grammar.
 
 **Exercise 2b:** Continue the parse tree from the previous ecercise until it is complete or until it becomes easy and boring. 
 
