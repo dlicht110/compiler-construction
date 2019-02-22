@@ -32,6 +32,8 @@ Lecture by Lecture:
 
 - Lab 4.2: The aim is to sort out any remaining problems with installing BNFC. For those who missed this in class there is a **Homework:** Exercise 0 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
 
+- Lecture 4.3: How to build a parse tree, illustrated by [Exercise 2](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md). **Homework:** Exercise 3 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
+
 coming up soon:
 
 - [Lecture](): Nondeterminstic Finite Automata. 
