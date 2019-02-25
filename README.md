@@ -34,7 +34,9 @@ Lecture by Lecture:
 
 - Lecture 4.3: How to build a parse tree, illustrated by [Exercise 2](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md). **Homework:** Exercise 3 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
 
-- [Lecture 5.1](https://hackmd.io/s/ByjJ8eWUE): Nondeterminstic Finite Automata.
+- Lecture 5.1: 
+  - Assignment 2: [Grammar and Parser for C++](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html). Deadline for the first test file Thursday, Feb 28, (11:59 pm PST), for the rest of the assignment Sunday, March 10, (11:59 pm PST).  
+  - [Nondeterminstic Finite Automata](https://hackmd.io/s/ByjJ8eWUE).
 
 coming up soon:
 
