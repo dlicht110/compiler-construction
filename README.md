@@ -17,7 +17,7 @@ Lecture by Lecture:
 - [Lecture 2.1](http://www.grammaticalframework.org/ipl-book/slides/1-slides-ipl-book.pdf): A brief introduction to compiler construction from Chapter 1 of [the book](http://www.grammaticalframework.org/ipl-book/). **Homework:** Read [Chapter 1](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf).
 
 
-- [Lecture 2.2](lecture-2.2.md): Determinstic Finite Automata. **Homework:** Exercise 2.2.4 (possibly 2.2.5 and 2.2.6) and Exercise 2.2.10 (possibly 2.2.11). These exercises are relevant for tests and final.
+- [Lecture 2.2](lecture-2.2.md): Determinstic Finite Automata. **Homework:** Exercise 2.2.4 (possibly 2.2.5 and 2.2.6) and Exercise 2.2.10 (possibly 2.2.11) from [Introduction to Automata Theory]( https://mcdtu.files.wordpress.com/2017/03/introduction-to-automata-theory.pdf). These exercises are relevant for tests and final.
 
 - Lecture 2.3: **How to build a compiler/interpreter in 50min**. We looked at the [slides](http://www.grammaticalframework.org/ipl-book/slides/2-slides-ipl-book.pdf) up to page 35, see also Chapter 2 of [the book](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf). For installation  introductions see the [BNFC homepage](http://bnfc.digitalgrammars.com) or my [BNFC installation instructions](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation.md). **Homework:** First install Haskell (not necessary if you use the windows binaries), then install BNFC. *Deadline: Monday, Feb 11, before class* (If there are problems with installation we will try to sort it out on Monday in class.)
 
@@ -36,7 +36,7 @@ Lecture by Lecture:
 
 - Lecture 5.1: 
   - Assignment 2: [Grammar and Parser for C++](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html). Deadline for the first test file Thursday, Feb 28, (11:59 pm PST), for the rest of the assignment Sunday, March 10, (11:59 pm PST).  
-  - [Nondeterminstic Finite Automata](https://hackmd.io/s/ByjJ8eWUE).
+  - [Nondeterminstic Finite Automata](https://hackmd.io/s/ByjJ8eWUE). **Homework:** Exercise 2.3.1 and 2.3.2 from [Introduction to Automata Theory]( https://mcdtu.files.wordpress.com/2017/03/introduction-to-automata-theory.pdf). These exercises are relevant for tests and final.
 
 coming up soon:
 
