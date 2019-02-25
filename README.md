@@ -34,9 +34,10 @@ Lecture by Lecture:
 
 - Lecture 4.3: How to build a parse tree, illustrated by [Exercise 2](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md). **Homework:** Exercise 3 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
 
+- [Lecture 5.1](https://hackmd.io/s/ByjJ8eWUE): Nondeterminstic Finite Automata.
+
 coming up soon:
 
-- [Lecture](): Nondeterminstic Finite Automata. 
 - [Lecture](): Regular Expressions. 
 - [Lecture](): Minimizing Automata. 
 
