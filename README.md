@@ -40,6 +40,8 @@ Lecture by Lecture:
 
 coming up soon:
 
+- [Lecture 5.1](https://hackmd.io/s/SJv6u2GL4#): Composing Automata
+
 - [Lecture](): Regular Expressions. 
 - [Lecture](): Minimizing Automata. 
 
