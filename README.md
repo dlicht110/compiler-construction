@@ -34,9 +34,11 @@ Lecture by Lecture:
 
 - Lecture 4.3: How to build a parse tree, illustrated by [Exercise 2](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md). **Homework:** Exercise 3 of the [BNFC self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md).
 
-- Lecture 5.1: 
-  - Assignment 2: [Grammar and Parser for C++](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html). Deadline for the first test file Thursday, Feb 28, (11:59 pm PST), for the rest of the assignment Sunday, March 10, (11:59 pm PST).  
-  - [Nondeterminstic Finite Automata](https://hackmd.io/s/ByjJ8eWUE). **Homework:** Exercise 2.3.1 and 2.3.2 from [Introduction to Automata Theory]( https://mcdtu.files.wordpress.com/2017/03/introduction-to-automata-theory.pdf). These exercises are relevant for tests and final.
+- Assignment 2: [Grammar and Parser for C++](http://www.grammaticalframework.org/ipl-book/assignments/assignment1/assignment1.html). Deadline for the first test file Thursday, Feb 28, (11:59 pm PST), for the rest of the assignment Sunday, March 10, (11:59 pm PST).  
+
+  - The [LBNF reference](https://bnfc.readthedocs.io/en/latest/lbnf.html#lbnf-in-a-nutshell) is a good resource, for example the section on [terminators and separators](https://bnfc.readthedocs.io/en/latest/lbnf.html#terminator).
+
+- Lecture 5.1: Nondeterminstic Finite Automata](https://hackmd.io/s/ByjJ8eWUE). **Homework:** Exercise 2.3.1 and 2.3.2 from [Introduction to Automata Theory]( https://mcdtu.files.wordpress.com/2017/03/introduction-to-automata-theory.pdf). These exercises are relevant for tests and final.
   
 - [Lecture 5.2](https://hackmd.io/s/SJv6u2GL4#): Composing Automata
 
