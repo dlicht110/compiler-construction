@@ -42,8 +42,10 @@ Lecture by Lecture:
   
 - [Lecture 5.2](https://hackmd.io/s/SJv6u2GL4#): Composing Automata
 
+- [Lecture 5.3](https://hackmd.io/s/rkA6Af484#): Regular Expressions. 
+
+
 coming up soon:
 
-- [Lecture](https://hackmd.io/s/rkA6Af484#): Regular Expressions. 
 - [Lecture](https://hackmd.io/s/r1ioqQEIE#): Regular Languages, Minimization, Pumping Lemma. 
 
