@@ -49,3 +49,5 @@ coming up soon:
 
 - [Lecture](https://hackmd.io/s/r1ioqQEIE#): Regular Languages, Minimization, Pumping Lemma. 
 
+- [Lecture](): Shift/reduce and reduce/reduce conflicts in BNFC generated parsers.
+
