@@ -7,8 +7,8 @@ Quick links to BNFC installation instructions and other documentation, to be use
 - [BNFC: adding the Java lexer and parser](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-installation-java.md)
 - [BNFC: self check](https://github.com/alexhkurz/compiler-construction/blob/master/BNFC-example.md)
 - BNFC/Happy parser:
-  - The BNFC/Happy [`.info`-files](https://hackmd.io/s/ryllVQdIN) and an example of shift-reduce parsing
-  - How to eliminate [shift/reduce and reduce/reduce](https://hackmd.io/s/S11sLzo84) conflicts
+  - The BNFC/Happy [`.info`-files](https://hackmd.io/s/ryllVQdIN) and an example of shift-reduce parsing.
+  - How to eliminate [shift/reduce and reduce/reduce](https://hackmd.io/s/S11sLzo84) conflicts.
   - Understanding [LALR(1) parsing](https://hackmd.io/s/S11sLzo84) with a worked example.
 
 Lecture by Lecture:
