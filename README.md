@@ -13,13 +13,15 @@ Quick links to BNFC installation instructions and other documentation, to be use
 
 Lecture by Lecture:
 
-- [Lecture 1.1](lecture-1.1.md): Organisation, Assessment, Short introduction to parsing  
-- Lab 1.2: Discussion of [Assignment 1](https://hackmd.io/s/HyaDeaXzN#) (due Wed, Feb 6, see [Lecture 1.1](lecture-1.1.md) for details).
+- [Lecture 1.1](lecture-1.1.md): Organisation, Assessment, Short introduction to parsing.
+
+- Lab 1.2: Discussion of Assignment 1.
+  - [Assignment 1](https://hackmd.io/s/HyaDeaXzN#) 
+  - due Wed, Feb 6, see [Lecture 1.1](lecture-1.1.md) for details
 
 - [Lecture 1.3](https://hackmd.io/s/S110eS-VE#): How to implement a state machine and why do Java and Python not have gotos? **Homework:** Read the articles referenced in [the lecture](https://hackmd.io/s/S110eS-VE).
 
 - [Lecture 2.1](http://www.grammaticalframework.org/ipl-book/slides/1-slides-ipl-book.pdf): A brief introduction to compiler construction from Chapter 1 of [the book](http://www.grammaticalframework.org/ipl-book/). **Homework:** Read [Chapter 1](http://www.cse.chalmers.se/edu/year/2012/course/DAT150/lectures/plt-book.pdf).
-
 
 - [Lecture 2.2](lecture-2.2.md): Determinstic Finite Automata. **Homework:** Exercise 2.2.4 (possibly 2.2.5 and 2.2.6) and Exercise 2.2.10 (possibly 2.2.11) from [Introduction to Automata Theory]( https://mcdtu.files.wordpress.com/2017/03/introduction-to-automata-theory.pdf). These exercises are relevant for tests and final.
 
@@ -62,4 +64,10 @@ coming up soon:
 - [Lecture](https://hackmd.io/s/r1ioqQEIE#): Regular Languages, Minimization, Pumping Lemma. 
 
 - Lecture: Shift/reduce and reduce/reduce conflicts in BNFC generated parsers.
+
+- Assignment 3:
+
+ - 
+ 
+ - 
 
