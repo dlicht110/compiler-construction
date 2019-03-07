@@ -67,7 +67,7 @@ coming up soon:
 
 - Assignment 3:
 
- - 
+  - 
  
- - 
+  - 
 
