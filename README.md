@@ -53,7 +53,7 @@ Lecture by Lecture:
 
 - [Lecture 5.3](https://hackmd.io/s/rkA6Af484#): Regular Expressions. 
 
-- [Lecture 6.1](https://hackmd.io/s/ryllVQdIN#): How does shift-reduce parsing work?  **Homework:** Do the exercise from the lecture notes. These exercises are relevant for tests and final.
+- [Lecture 6.1](https://hackmd.io/s/ryllVQdIN#): How to produce a `.info`-file? How does shift-reduce parsing work?  **Homework:** Do the exercise from the lecture notes. These exercises are relevant for tests and final.
 
 - [Lecture/Lab 6.2/6.3](https://hackmd.io/s/rJoVGDh84#): How to eliminate shift/reduce and reduce/reduce conflicts. **Homework:** Do the exercise from the lecture notes. These exercises are relevant for Assignment 2.
 
