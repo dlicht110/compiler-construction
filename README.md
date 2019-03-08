@@ -61,8 +61,8 @@ Lecture by Lecture:
 
 - **Test in Class 7.2 on Wed March 13:** The test will be on regular expressions and DFAs, in particular on how to construct an automaton from a regular expression. The lectures relevant for the test are [Lecture 2.2](lecture-2.2.md), [Lecture 5.1](https://hackmd.io/s/ByjJ8eWUE), [Lecture 5.2](https://hackmd.io/s/SJv6u2GL4), [Lecture 5.3](https://hackmd.io/s/rkA6Af484). The test questions will be variations of Exercises from [Introduction to Automata Theory]( https://mcdtu.files.wordpress.com/2017/03/introduction-to-automata-theory.pdf):
 
-  - 2.2.4 (see also 2.2.5 and 2.2.6): from a language to a DFA, p.54
-  - 2.2.10 (also 2.2.11) without the proof-by-induction part: from a DFA to its language, p.55
+  - 2.2.4: from a language to a DFA, p.54
+  - 2.2.10 without the proof-by-induction part: from a DFA to its language, p.55
   - 2.3.1 and 2.3.2: from NFA to DFA, p.66
   - 3.1.1: from English to regular expressions, p.89
   - 3.2.4: from regular expressions to epsilon-NFAs, p.106
